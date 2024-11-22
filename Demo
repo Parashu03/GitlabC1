@@ -1,0 +1,14 @@
+class Box
+{
+	double length,width,height;
+	void area(double length,double width,double height)
+{
+	this.length=length;
+	this.width=width;
+	this.height=height;
+}
+	void display()
+{
+	System.out.println("Area : "+(length*width*height))
+}
+}
