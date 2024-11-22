@@ -12,3 +12,12 @@ class Box
 	System.out.println("Area : "+(length*width*height))
 }
 }
+class Demo
+{
+	public static void main(String[]args)
+	{
+		Box b=new Box();
+		b.area(1,1,1);
+		b.display();
+	}
+}
